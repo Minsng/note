@@ -9,16 +9,55 @@
 web시장의 흐름과 동향
 
 큰 구조 : html, css, js
-
+  HyperText Markup Language
+  Cascading Style Sheets
+  JavaScript
+  
 웹 버전 : 기능 추가, 수정, 삭제되며 버전 변화
   
   WEB 1.0 (1998~2003) HTML + CSS
   WEB 2.0 (2004~2010) XHTML 1.0 + CSS2 => 웹표준 / 접근성
   WEB 3.0 (2011~)     HTML5 + CSS3     => 웹표준 / 접근성 / 모바일
 
+WEB 1.0
+  HTML 4.01 -> 당시 웹 표준
+  CSS1
+  디자인 빈약, 프론트엔드 개념부재
+  
+WEB 2.0
+  XHTML 1.0
+  CSS2
+  웹표준과 접근성 개념성립, 명확한 가이드라인 생성
+  웹 퍼블리셔의 등장
+  디자인 + 코드
+  CSS 기능 확장
+  HTML 기능 수정/삭제
+  
+WEB 3.0
+  HTML5
+  CSS3
+  웹표준과 접근성 대폭 향상
+  스마트폰의 등장 --> 모바일 + 태블릿
+  HTML, CSS 기능 확장/수정
+
+페이지 소스보기에서 상단 DOCTYPE 확인하여 웹 버전 확인가능
+DOCTYPE : 브라우저에 HTML 버전을 명시하여줌
+
 -------------------------------------------------------------------
 
-HTML
+다양한 웹 브라우저
+
+5대 브라우저 IE, Chrome, Firefox, Safari, Opera
+
+
+
+
+
+
+
+
+
+
 
 
 
