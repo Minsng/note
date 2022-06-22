@@ -121,6 +121,59 @@ W3C (World Wide Web Consortium)
 
 파이어폭스,오페라,웨일 설치
 
+------------------------------------------------------------------
+
+<디자인>
+
+카페 - 디자인과 컬러 - <색상을 알아야 한다> 게시글 참조
+
+CMYK
+  색의 3원색 : Cyan Magenta Yellow + 무채색 : Key (Black)
+  --> 물감(잉크)
+
+RGB
+  빛의 3원색 : Red Green Blue
+  --> 빛
+
+단위 : cm, mm, km, in, px, pt, .....
+
+------------------------------------------------------------------
+
+Adobe Phothshop (웹 디스플레이 작업 기준)
+  file - new
+  우측 Color Mode : 웹작업시 RGB 인지 확인
+  모든 단위를 px로 통일시켜 작업하기
+  해상도 : Resolution 72ppi
+  
+Adobe Illustrator
+  file - new
+  우측 Color Mode : 웹작업시 RGB 인지 확인,  편집은 CYMK
+  기본단위 : cm, mm, px, pt
+  해상도 : Raster Effects 72ppi(웹) // 편집은 300ppi
+  
+------------------------------------------------------------------
+
+포토샵 툴 강의
+
+설정변경
+Edit - Preferences - General - 좌측 Units & Rulers
+
+Units
+  Rulers : Pixels
+  Type : Pixels  
+  
+New Document Preset Resolutions
+  Print Resolution : 300
+  Screen Resolution : 72    
+
+
+
+
+
+
+
+
+
 
 
 
