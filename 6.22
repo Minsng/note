@@ -153,11 +153,12 @@ Adobe Illustrator
   
 ------------------------------------------------------------------
 
-포토샵 툴 강의
+포토샵 툴
 
 설정변경
-Edit - Preferences - General - 좌측 Units & Rulers
+Edit - Preferences - General
 
+좌측 Units & Rulers
 Units
   Rulers : Pixels
   Type : Pixels  
@@ -165,6 +166,28 @@ Units
 New Document Preset Resolutions
   Print Resolution : 300
   Screen Resolution : 72    
+
+좌측 Type
+Show Font Names in English 만 체크해제
+
+
+File - New
+연습용 Ex_1 만들어보기
+width 1000 px
+height 1000 px
+resolution 72
+생성
+
+카페 - graphic 수업자료 - 포토샵 1 다운로드
+압축 pw : 402
+
+기초설명 notepad 시도해보기
+
+
+
+
+
+
 
 
 
