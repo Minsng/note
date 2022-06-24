@@ -34,6 +34,8 @@
   - 해당 에디터 --> 최상위 폴더(root)를 세팅
   - 선 저장, 후 테스트
   - html은 거의 대부분 시작태그와 끝태그로 구성되어 있다
+                      <태그명>  </태그명>
+  
   
 ---------------------------------------------------------------
 
@@ -75,7 +77,26 @@
 </body>
 </html>
 
-1-1 
+
+Zen Coding 젠코딩 (Emmet)
+
+  ! 누르고 tab --> 기본 틀 자동 생성
+
+
+HTML5 템플릿
+
+<!DOCTYPE html>             DOCTYPE 명시
+<html lang="en">            주 언어 명시 (ko, en, de, ja, zh, fr, ...)
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
 
 
 
