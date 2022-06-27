@@ -12,6 +12,7 @@ review
   {} (중괄호) : 블록문
 
 
+웹표준 기초 스타일링설명.txt 이어서...
 
 <태그의 종류와 특징>
 1. <p>
@@ -41,10 +42,17 @@ review
   카페 - HTML5 + CSS3 - 8페이지 - HTML5 Outliner 설치 (목차 확인 가능)
 
 
+4. <span>, <strong>, <em>
+  - 특정의 키워드/단어/문장의 시각적인 표현이나 강조를 하기위한 요소
+  
+  - span : css를 사용해서 시각적 표현(주관적표현)
+  - strong : font-weight:bold; (강한 강조)
+  - em : font-style:italic; (약한 강조)
 
 
-
-
+기타
+  - <br> : 라인을 떨굼 (Enter, 개행)
+  - &nbsp;
 
 
 
