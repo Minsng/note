@@ -18,10 +18,14 @@ review
   - 단락요소 (내용글)
   - 기본css -> margin (여백)
 
+2. <h1> ~ <h6>
+  - 헤드라인 (제목)
+  - Outline (목차)
+  - 기본 css -> font-size, font-weight, margin
+  - 웹접근성 -> 가장 중요한 태그 -> 목차
 
-
-
-
+  주석 : 실제 브라우저가 계산하지 않는 코드
+  
 
 
 
