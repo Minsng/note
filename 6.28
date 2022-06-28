@@ -244,20 +244,247 @@ css 태그 중
     2.More Cyan을 클릭한 후 Darker를 두번 클릭한다.
 
 
+-----------------------------------------------------------------------
+
+포토샵 8
+Adjustment - 이미지보정 2
+
+
+8 사진 색상 보정
+
+    *이미지에 색을 추가하여 전체적인 색을 바꿀 때 사용한다.
+     RGB컬러를 추가하거나 CMYK컬러를 추가할 수 있다.
+
+    [Image]-[Adjustments]-[Color Balance]  (Ctrl+B)
+
+    Preserve Luminosity:체크를 하면 그림자의 명암을 유지하면서 색을 입혀준다
+                        (이미지의 명도는 유지하 상태로 톤을 조절한다)
+
+    <작업>
+
+    Cyan:-60 , Green:60 , Blue:80 , Tone을 'Shadow'로 선택하고 Blue를 20으로 설정한다.
 
 
 
+9 흑백사진 조절
+
+    *컬러 이미지를 흑백으로 만들거나 모노 톤으로 만들때 사용한다.
+     Desaturation에서는 조절할 수 없는 색상별 흑백 명암을 조절할 수 있다.
+
+    [Image]-[Adjustments]-[Black&White] (Alt+Ctrl+Shift+B)
+
+
+    Tint: 체크를 하면 모노 톤의 이미지를 만든다.
+          (Hue/Saturation의 Colorize에 체크를 한 것과 비슷한 효과를 만든다)
+    Auto: 자동으로 설정된 흑백 이미지로 조절된다.
+    색상바 : 각 색상별로 명암을 조절한다.
+
+
+    <작업>
+
+    1.[Image]-[Adjustments]-[Black&White]를 적용하면 이미지가 흑백 톤으로 바뀐다.
+    2.Reds:250 (빨간색 계열이 밝아진다)
+    3.Blue:-100 (파란색 계열이 어두워진다)
+    4.Tint를 체크한다. (이미지가 모노 톤으로 바뀐다.)
 
 
 
+10 색감과 색온도
+
+    *카메라의 색감과 색 온도를 보정하는 기본 필터이다.
+
+    [Image]-[Adjustments]-[Photo Filter]
+
+    Filter :필터의 종류를 선택한다.
+    Color :필터에 넣을 색을 설정한다.
+    Density :색의 농도를 조절한다.
+    Preserve Luminosity: 체크를 하면 그림자의 명암을 유지하면서 색을 입힌다.
+
+    <작업>
+
+    1.[Image]-[Adjustments]-[Photo Filter]를 적용한다.
+    2.Density:100 (다른 값들도 조절해 본다.)
+
+
+11 채널 색상 보정
+    
+    - 안하신다고 함
+    
+    *이미지의 색상 채널을 보장할 때 사용한다.
+     RGB와 CMYK 모드 에서만 사용할 수 있다.
+     채널의 각각을 조절하므로 원하는 색을 얻을 수 있다.
+
+
+    [Image]-[Adjustments]-[Channel Mixer]
+
+    Monochrome :체크를 하면 흑백 톤으로 조절한다.
+    Source Channels :각각의 채널에 값을 더하거나 빼준다.
+    Constant :대비 값을 조절한다.
+
+    <작업1-흑백 이미지 세밀하게 설정하기>
+
+    1.'ChannelMix.jpg' 이미지를 불러온다.
+    2.[Image]-[Adjustments]-[Channel Mixer] 적용한다.
+    3.Monochrome을 체크한다. (흑백톤으로 바꾼다.)
+    4.Red:-10 , Green:120 , Blue:35
+
+
+    <작업2-가을 풍경으로 바꾸기>
+
+    1.'풍경.jpg' 이미지를 불러온다.
+    2.[Image]-[Adjustments]-[Channel Mixer] 적용한다.
+    3.Red:-200 , Green:50 , Blue:-61
 
 
 
+12 새로운 색감 적용
+
+    *사진의 새로운 색감을 불러와 적용하기 위한 옵션들이 있다.
+
+    [Image]-[Adjustments]-[Color Lookup]
+
+    3DLUT File: 동일한 컬러를 적용하기 위해 사용된다.
+    Abstract, Device Link : 서로다른 시스템에서 보정 작업을 할 경우
+                            일관되게 보정할 수 있도록 한다.
+    Dither :체크를 하면 적용 컬러들의 경계선을 부드럽게 만든다.
+
+    <작업-이미지의 새로운 색감 적용하기>
+
+    1.[Image]-[Adjustments]-[Color Lookup]
+    2.Device Link에서 ColorNegative를 선택한다.
 
 
+13 색상 반전
+
+    *색은 반전할 때 사용한다. 반전 효과를 이용하면 극적인 효과나 엑스레이, 필름 효과를
+     만들 수 있다.
+
+    [Image]-[Adjustments]-[Invert]  (Ctrl+I)
 
 
+14 색상 단순화
 
+    *이미지의 색상 수를 단순화 하여 표현할 때 사용한다.
+
+    [Image]-[Adjustments]-[Posterize]
+
+
+    Levels : 색상 수를 설정한다. 기본값은 4이고, 2~255까지 설정할 수 있다.
+
+
+    <작업>
+
+    1.[Image]-[Adjustments]-[Posterize]
+    2.Levels:5
+
+----------------------------------------------------------------------------
+
+포토샵 9
+
+Adjustment - 이미지보정3
+
+
+15 회색과 검은색으로 표현
+  
+    *흰색과 검은색 만으로 이미지를 표현한다.
+    판화느낌?    
+
+    [Image]-[Adjustments]-[Threshold]
+
+
+    Threshold Level :0~255까지의 수를 가지며, 입력된 수를 기준으로
+                     앞은 흰색, 뒤는 검은색으로 나타난다.
+
+
+    <작업-이미지를 판화 느낌으로 표현하기>
+
+    1.[Image]-[Adjustments]-[Threshold]
+    2.Threshold Level:80
+
+
+16 Gradient Map
+
+    *이미지를 그레이디언트 색상만으로 표현한다.
+     첫번째 Color Stop은 가장 어두운 영역, 마지막 Color Stop은 가장 밝은 영역을 나타낸다.
+
+
+    [Image]-[Adjustments]-[Gradient Map]
+
+    Dither :색을 부드럽게 만든다.
+    Reverse :색을 반전한다.
+
+    <작업>
+
+    1.[Image]-[Adjustments]-[Gradient Map]
+      -전경색과 배경색으로 일단 적용된다.
+    2.콤보 버튼을 클릭해서 'Volet, Green, Orange'를 선택한다.
+      (색을 임의로 만들어서 적용해 본다.
+    )
+
+
+17 Selective Color
+
+    *특정 색의 전체적인 색감을 보정할 때 사용한다.
+
+    [Image]-[Adjustments]-[Selective Color]
+
+    Method :색을 보정하는 방식을 선택한다.
+            -Relative:기존의 색상에 색상 값을 더하거나 뺀다.
+            -Absolute:선택한 색상의 값을 추가한다.
+
+
+    <작업-색감 높이기>
+
+    1.[Image]-[Adjustments]-[Selective Color]
+    2.Color:'Reds' , Cyan:-100 , Magenta:50 , Yellow:100
+    3.Color:'Cyans' , Cyan:100 , Magenta:100
+    4.Color:'Greens' , Cyan:100 , Magenta:60 , Yellow:100
+
+
+18 역광 사진 보정
+
+    *이미지가 역광으로 찍혀서 너무 어둡거나 밝을 경우에 주로 사용한다.
+
+    [Image]-[Adjustments]-[Shadows/Highlights]
+
+    Shadows :이미지의 어두운 영역을 나타내며, 값이 높으면 어두운 부분을 밝게 만든다.
+    Highlights :이미지의 밝은 영역을 나타내며, 값이 높으면 밝은 부분을 어둡게 만든다.
+
+    <작업-역광 사진 보정하기>
+
+    1.[Image]-[Adjustments]-[Shadows/Highlights]
+    2.Shadows:40 , Highlights:10
+
+
+19 색을 제거
+
+    *이미지의 색상을 제거한다.
+
+    [Image]-[Adjustments]-[Desaturate]  (Ctrl+Shift+U)
+
+
+    <작업-오래된 사진 만들기>
+
+    1.[Image]-[Adjustments]-[Desaturate]  => 이미지가 흑백으로 바뀐다.
+    2.[Filter]-[Filter Gallery]를 클릭한다.
+      -Texture에서 'Grain'을 클릭한다.
+      -intensity:12 , Contrast:15, type:vertical
+
+
+20 Match Color
+
+    *서로 다른 환경에서 찍은 사진의 강도나 색조를 통일할 때 사용한다.
+
+
+    [Image]-[Adjustments]-[Match Color]
+
+
+    <작업-오래된 사진 만들기>
+
+    1.Match1.jpg , Match2.jpg를 선택하여 불러온다.
+    2.Match2.jpg를 선택하고 [Image]-[Adjustments]-[Match Color]를 적용한다.
+    3.Source를 'Match1.jpg'로 설정한 후 'OK'
+    4.Match1.jpg 의 이미지 색상톤이 Match2.jpg 로 적용된 것을 볼 수 있다.
 
 
 
