@@ -15,31 +15,88 @@
     -> _blank : 다른 사이트로 이동할 때 사용 (제휴/family/타사이트)
     -> _blank 사용시 title에 꼭!! 설명 첨부 -> 접근성
       (title="~~~ 사이트가 새창에 열림")
+  - 가상 클래스를 가지고있다
+        
+        가상 클래스
+
+        link:       => 최초 페이지가 열렸을때 상황(기본),
+        visited:    => 사용자가 과거에 링크를 선택한 적이 있을때 
+        hover:      => 현재 마우스 포인터 등으로 가리켜지고 있을때(롤오버)
+        active:     => 현재 클릭되고 있을때
+        focus       => 포커스를 받을때
+
+        download => 브라우저가 처리할 수 없는 파일의 종류를 href=""링크로
+                    연결할 때
   - 상속 시 font-color, text-decoration 영향 받지않는다
   - 파일 열기 / 다운로드도 가능
-  - 페이지 내 점프메뉴 (id로 목적지 설정)
+  - 페이지 내 점프메뉴 생성 가능 (id로 목적지 설정)
+  - 강제로 모든 파일을 다운로드 => download="저장할 파일명"
+  - 점프메뉴
+    <태그 id="아이디명">
+    <a href="#아이디명">해당콘텐츠로이동</a>
+    <a href="#top">맨위로 이동</a>
   
+  p*300{$$단락입니다} --> emmet 자동생성
   
-가상 클래스
+  - 타게팅하는 다른 방법 
+      
+      a 태그에 title이 있을 경우
+      .link a[타이틀명] { 속성:값; }
+      .link a[title="타이틀명"] { 속성:값; }
+      
+      ^ : 프론트 기능
+      .link a[href^="https://daum"] { 속성:값; }      
+      
+      $ : 엔드 기능
+      .link a[href$=".net/"] { 속성:값; }
 
-  link:       => 최초 페이지가 열렸을때 상황(기본),
-  visited:    => 사용자가 과거에 링크를 선택한 적이 있을때 
-  hover:      => 현재 마우스 포인터 등으로 가리켜지고 있을때(롤오버)
-  active:     => 현재 클릭되고 있을때
-  focus       => 포커스를 받을때
+
+
+
+------------------------------------------------------------------
+
+목록 태그 <ul> <ol> <dl>
+
+
+ul  (Unorder List)
   
-  download => 브라우저가 처리할 수 없는 파일의 종류를 href=""링크로
-              연결할 때
+  순서 없는 목록 (bullet)
+  ul의 직계자식은 꼭 <li>만 올 수 있다
+  ul / li => 블럭요소
   
-  강제로 모든 파일을 다운로드 => download="저장할 파일명"
-              
+  ul/li에서 사용할 수 있는 속성
+    list-style : disk(기본), square, circle, none(제거)
+    list-style-type : dist(기본), square, circle, none(제거)
+    list-style-position : outside(기본), inside -> 불릿의 위치
+    list-style-image : url(./images/icon.jpg); -> 불릿을 이미지로  
+    
+  ul은 중첩이 가능하다
+  ex)
+    <ul>
+        <li>1depth 01
+            <ul>
+                <li>2depth 01</li>
+                <li>2depth 02
+                    <ul>
+                        <li>3depth 01</li>
+                        <li>3depth 02</li>
+                    </ul>
+                </li>
+                <li>2depth 03</li>
+            </ul>
+        </li>
+        <li>1depth 02
+            <ul>
+                <li>2depth 01</li>
+                <li>2depth 02</li>
+                <li>2depth 03</li>
+            </ul>
+        </li>
+        <li>1depth 03</li>
+        <li>1depth 04</li>
+    </ul>
 
-
-
-
-
-
-
+-------------------------------------------------------------------
 
 
 
