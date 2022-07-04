@@ -58,11 +58,51 @@ ol (Order List)
   dt, dd의 자손으로는 인라인 요소만 올 수 있다
   
   
+------------------------------------------------------------------------
+
+단위
+
+  1)절대단위: in(1인치는 2.54cm)  cm  mm  pt ex px(권장/강요/협박) pc(1파이카는 12포인트)
+  2)상대단위: em %
   
+  *사이즈 기본 -> 12pt = 16px = 1em = 100%
+    
+    em      -> body에 선언된 font-size를 기준크기로 하여 em단위를 재 계산/환산하는
+    상대 단위   (선언 안됐을 시 기본사이즈인 16px이 기준)
+  
+  
+------------------------------------------------------------------------
 
 
 
+폰트와 텍스트 스타일링
 
+  font-variant:small-caps (normal) => 모든 소문자를 작은 대문자로...
+
+  font: bold italic 15px/20px Verdana, Geneva, sans-serif;
+  font: 굵기 이텔릭 글자크기/줄간격 글꼴;
+  
+  font-family: 글꼴패밀리명 , 대표패밀리명
+  font-family: "돋움", Dotum,"굴림",Gulim, sans-serif;
+  우선순위가 높을수록 앞에 쓰기
+  한글폰트는 따옴표 안에 쓰기
+
+  text-indent:값;  
+    (값은 양수,음수 모두 사용가능=>문단의 첫줄의 들여쓰기/내어쓰기 기능)
+    
+  text-transform:값;   
+    (uppercase/lowercase/capitalize(각 단어 첫글자 대문자로)/none=>대소문자 변환)
+  
+  *letter-spacing:값;  (값은 양수/음수 => 글자 사이사이에 전체적으로 공간을 넣는다.)
+  *word-spacing:값;   (값은 양수/음수 => 단어 사이사이에 공간을 넣는다.)
+  
+  *text-align:값;  (값은  left/right/center/justify  => 텍스트 정렬)
+            
+          한글은 justify 주로 사용하기
+          
+  *line-height:값;  (모든 숫자 가능 => 줄간격)
+  
+  
 
 
 
