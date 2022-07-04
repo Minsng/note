@@ -18,6 +18,7 @@ ul  (Unorder List)
     list-style-image : url(./images/icon.jpg); -> 불릿을 이미지로
   
   ul은 중첩이 가능하다 ol과의 중첩도 가능
+  ul의 자손으로 dl을 선언할 수 있다
 
   리스트 / 네비게이션 / 갤러리 등
   어떤 ui 컨텐츠가 2개 이상 반복될 때 사용
@@ -33,9 +34,31 @@ ol (Order List)
   왠만하면 ul을 사용하지만, 단계의 구분이 꼭 필요한 경우 ol을 사용!
     (순서/과정/프로세스가 꼭 필요한 경우)
   
+
+
+<dl> Decription list
+<dt>, <dd> / Definition Term , Definition Details
+
+  정의형 목록
+  모두 블럭요소  
   
-
-
+  dl의 직계자식은 dt, dd만 올 수 있다
+  dl의 직계자식으로 최소한 dt, dd가 1개씩은 구성되어야 한다
+  
+  접근성을 향상시킬 수 있다
+  dt -> 리스트의 제목, dd앞에 사용
+      -> Outline에 등록되지 않는다(h1~h6만 됨)
+  dd -> 바로 이전에 선언된 dt의 리스트로 귀속된다.
+  하나의 dt에 여러개의 dd 선언이 가능  
+  
+  dl은 중첩하지 않는다
+  dl의 자손으로 ul, ol을 중첩하지 않는다
+  ul의 자손으로 갈 수는 있음
+  
+  dt, dd의 자손으로는 인라인 요소만 올 수 있다
+  
+  
+  
 
 
 
