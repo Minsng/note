@@ -1,48 +1,53 @@
 // 7.6
 
 
+어제의 이미지태그 이어서...
 
+이미지 처리방법
 
+  1 <img src=""> 태그 사용
 
+  2 css의 background-image: / background:url() 속성을 사용 (배경처리)
+  
+  
+  <img>
+    - 이미지를 처리하는 태그
+    - 인라인요소
+    - 시작태그만 갖고있다
+    - 태그의 속성
+      src="이미지의 경로/파일명.확장자"
+      alt="텍스트정보 / 링크정보" (웹 접근성의 기본)
+        -> alt를 생략하면 에러
+    
+    - display:block;를 하지 않아도, 블록요소의 특징을 일부 가지고있다
+      --> 인라인 요소이지만, 블럭모델(width/height/margin)을 사용가능
+    
+    
+  css : background-img:url(경로);
+    
+    배경은 반복이 default임
+    background-repeat : no-repeat;로 반복해제 가능
+    
+    background-repeat: repeat-x; --> 우로 계속 반복
+    background-repeat: repeat-y; --> 아래로 계속 반복
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    배경의 위치 설정가능 (9개까지)
+    
+    background-position: top, left, center, right, bottom
+                        left top, right top, left bottom, right bottom
+    
+    
+    
+    
+--->여기서부터 오늘
+    
+    그 밖의 위치설정
+    background-position: 50px 100px; / 50% 50%; == center;
+    
+    축약법
+    background: url(/images/center.jpg) right bottom no-repeat ;
+                왠만하면 순서 맞추자!
 
 
 
