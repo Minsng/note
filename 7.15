@@ -46,10 +46,28 @@ position 속성 (css)
 
   - ***** 집나간 아들내미/딸내미 귀가 프로젝트!!!!
   
-  직계부모에다가 position: relative 적용해서 absolute의 시작점을 바꿀 수 있다
-  
-  
+    - 원래 absolute를 사용하면 기준점이 body임
 
+      ->직계부모에다가 position: relative/absolute/fixed 를 적용해서 absolute의 시작점을 바꿀 수 있다
+    
+    - fixed의 기준점은 위 방법대로 옮길 수 없음 (무조건 body가 기준점)
+  
+  - 센터정렬
+  
+    좌우만 -> margin:auto;
+    
+    상하좌우 ->
+      
+      부모 
+      position: relative;
+
+      자식
+      position:absolute;
+      left: 50% top: 50%
+      margin-left : -(컨텐츠의너비/2)
+      margin-top : -(컨텐츠의높이/2)
+    
+---------------------------------------------------------------------------------
 
 
 
