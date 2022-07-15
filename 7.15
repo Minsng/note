@@ -74,12 +74,15 @@ table
   표를 만드는 요소
   행, 열로 구성 tr, td
   border-collapse: collapse; 셀 사이 공간을 없앤다
-  
+    
+    summary => 전체 태이블의 주제 ==> html5에서는 삭제됨
+    caption => 테이블의 제목  ==> html5에서는 삭제됨
+    
+    <th>    => 셀의 제목(가장 중요) ->기본 스타일(가운데정렬/굵게)
+    scope   => th가 행의 데이터를 지시하는 제목인지,열의 데이터를 지시하는 제목인지를 직관적으로 알려줌.
 
 
-
-
-
+  thead, tfoot, tbody 순서로 코딩
 
 
 
