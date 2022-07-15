@@ -41,9 +41,14 @@ position 속성 (css)
     - position이 적용된 ...코드 순서상 아래에 위치한 요소가 위로 올라간다
     - z-index 속성으로 조절가능 (10단위로 사용)
 
+  - 상속 => 코드상의 직계부모의 css속성을 그대로 물려받는다.
+         => 단, absolute, fixed 의 width속성은 body에 영향을 받음 (직계부모의 width를 상속받지 않음)
 
-
-
+  - ***** 집나간 아들내미/딸내미 귀가 프로젝트!!!!
+  
+  직계부모에다가 position: relative 적용해서 absolute의 시작점을 바꿀 수 있다
+  
+  
 
 
 
