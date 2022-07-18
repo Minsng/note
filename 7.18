@@ -49,10 +49,15 @@ form
     - 최초 1개가 선택되어 있어야한다 => check="checked"
   - <input type="checkbox"> => 다중이 선택 상자
     - 2개 이상일때 name속성 값을 동일/각가 다르게 줄수있다
-  - <input type="file"> => 파일 찾기 대화상자를 띄운다 (파일명.확장자명)
+  - <input type="file"> => 파일 찾기 대화상자를 띄운다 (파일명.확장자명)  
+  - <textarea name="" id="" cols="열수(너비)" rows="행수">
+       자기소개를 50자 이내로 입력하세요
+    </textarea>
   
+  - *** 버튼의 종류
   
-  
+  - <input type="submit" value="회원가입">
+  - <input type="reset" value="다시쓰기">
 
 
 
