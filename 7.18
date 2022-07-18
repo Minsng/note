@@ -54,12 +54,23 @@ form
        자기소개를 50자 이내로 입력하세요
     </textarea>
   
-  - *** 버튼의 종류
+  - *** 버튼의 종류  
+    - <input type="submit" value="회원가입"> => 전송버튼(폼에 전송)
+    - <input type="reset" value="다시쓰기"> => 입력취소/다시쓰기
+    - <input type="button" value="다양한 용도의 모양만 버튼"> => 일반버튼
+
   
-  - <input type="submit" value="회원가입">
-  - <input type="reset" value="다시쓰기">
-
-
+  - 글자 가리는법
+  
+    X visibility: hidden; 가려지지만 공간이 남는다
+    X display: none; 가려지고 공간도 사라지지만 리더기가 읽어주지 못함
+    
+    클래스로 속성 만들어놓고 이렇게 사용하자
+    O position: absolute; left: -1000%; top: 0;
+      display: block; width: 1px; height: 1px; color: #fff;
+      overflow: hidden;
+    
+    
 
 
 
