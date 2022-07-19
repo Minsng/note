@@ -1,0 +1,74 @@
+// 7.19
+
+
+어제 <form> 이어서...
+
+form
+
+  공통속성
+  
+  - 웹개발 사용하는 요소
+  - 폼 요소들은 <form>태그가 모두 감싸고 있어야한다 (부모)
+  - <form action="웹개발처리코드/문서" method="전송방식(get/post)"> 폼요소들 </form>
+  - 모든 각각의 폼 요소들에 그에 상응하는 라벨(label, 설명글)을 가지고 있어야 한다. (표준,접근성)
+  - <label for="해당폼요소의 ID값"> 대표텍스트 </label> => 인라인요소
+  - 모두 인라인요소
+  
+  - width height padding margin => 블럭요소의 4대속성 => display:block;을 적용하지 않아도
+                                   사용할 수 있다
+  
+  - tab focus를 가지고 있다.
+  
+  
+  - <input type="text"> => 일반 텍스트입력 상자
+  - <input type="password"> => 패스워드입력 상자
+  - <input type="radio"> => 개중 1개 선택 상자 (옵션버튼)
+    - 2개 이상의 라디오버튼을 사용하면 그룹을 만들어 주어야 개중 1개가 교대로 선택됨
+      - name값을 동일하게 주면 된다.
+    - 최초 1개가 선택되어 있어야한다 => check="checked"
+  - <input type="checkbox"> => 다중이 선택 상자
+    - 2개 이상일때 name속성 값을 동일/각가 다르게 줄수있다
+  - <input type="file"> => 파일 찾기 대화상자를 띄운다 (파일명.확장자명)  
+  - <textarea name="" id="" cols="열수(너비)" rows="행수">
+       자기소개를 50자 이내로 입력하세요
+    </textarea>
+  
+  - *** 버튼의 종류  
+    - <input type="submit" value="회원가입"> => 전송버튼(폼에 전송)
+    - <input type="reset" value="다시쓰기"> => 입력취소/다시쓰기
+    - <input type="button" value="다양한 용도의 모양만 버튼"> => 일반버튼
+
+  
+  - 글자 가리는법
+  
+    X visibility: hidden; 가려지지만 공간이 남는다
+    X display: none; 가려지고 공간도 사라지지만 리더기가 읽어주지 못함
+    
+    클래스로 속성 만들어놓고 이렇게 사용하자
+    O position: absolute; left: -1000%; top: 0;
+      display: block; width: 1px; height: 1px; color: #fff;
+      overflow: hidden;
+  
+  - <button> 태그
+
+    - <button type="submit">전송</button> => 전송버튼(폼에전송)
+    - <button type="reset">다시쓰기</button> =>입력취소/다시쓰기
+    - <button type="button">확인</button> =>일반버튼
+  
+      - input과 달리, 열고닫는 태그가 있음
+      - input보다 다양한 버튼을 사용 가능
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
