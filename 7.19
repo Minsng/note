@@ -91,6 +91,7 @@ iframe
 
 받아서 sample1에 넣기
 
+image_replacement_rollover
 
 <IR => Image Replace> 
          이미지교체
@@ -99,10 +100,24 @@ iframe
 
   - 링크가 걸려있는 경우(<a>)에 IR 사용하려면 => 무조건 <a>태그에 IR을 적용해아한다
   
-  - 
+    - 적용방법
+                  ex)
+                  display: block;
+                  width: 224px; height: 54px;
 
+                  /* 텍스트 숨기기 */
+                  text-indent: -1000px; overflow: hidden;
+                  /* 배경을 로고처리 */
+                  background: url(./logo.jpg);  
 
+    - 이미지 교체 효과를 쉽게 줄 수 있다. (hover시)
+  
+  
+  - 링크가 걸려있지 않은경우
+  
+---------------------------------------------------------------------------------
 
+ir2
 
 
 
