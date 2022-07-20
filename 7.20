@@ -6,8 +6,7 @@
 
 image_replacement_rollover
 
-<IR => Image Replace> 
-         이미지교체
+<IR => Image Replace> => 이미지 교체
 
   - 실체는 TEXT인데, 이미지로 교체하여 보이게 하는 방법 => 웹 접근성 향상
 
